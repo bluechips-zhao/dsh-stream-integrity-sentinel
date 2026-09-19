@@ -96,12 +96,12 @@ Headless 证据:
 ## 7. 给新对话的复制提示词
 
 ```text
-请继续实现 I:\Codex\dsh-stream-integrity-sentinel。
+请继续实现本项目。
 
-先完整阅读根目录 AGENTS.md，以及 README.md、docs/PROJECT.md、docs/ARCHITECTURE.md、docs/TECHNICAL-SPEC.md、docs/THREAT-MODEL.md、docs/DECISIONS.md、docs/TEST-PLAN.md、docs/TRACEABILITY.md、docs/UPSTREAM-BASELINE.md、docs/IMPLEMENTATION-HANDOFF.md、docs/ACCEPTANCE-CRITERIA.md、docs/COLLABORATION-LOG.md。不得凭旧对话或本机可能修改过的 DeepSeek Harness 源码重新设计。
+先完整阅读根目录 AGENTS.md，以及 README.md、docs/PROJECT.md、docs/ARCHITECTURE.md、docs/TECHNICAL-SPEC.md、docs/THREAT-MODEL.md、docs/TEST-PLAN.md、docs/TRACEABILITY.md、docs/UPSTREAM-BASELINE.md、docs/IMPLEMENTATION-HANDOFF.md、docs/ACCEPTANCE-CRITERIA.md。内部冻结契约和协作记录仅在本机工作区读取，不随公开仓库发布。不得凭旧对话或本机可能修改过的 DeepSeek Harness 源码重新设计。
 
 开始任何修改前：
-1. 在 docs/COLLABORATION-LOG.md 追加 STARTED，写明北京时间/UTC、执行者、目标和文件归属；
+1. 在本机私有协作记录追加 STARTED，写明北京时间/UTC、执行者、目标和文件归属；
 2. 从 DeepSeek Harness 官方仓库重新核对目标 commit 下的 StreamChunk、llm/stream、LlmRuntime.adapterStream、BlockAssembler、Agent Loop、retry policy 和 bundle 安装契约；
 3. 先完成 IMPLEMENTATION-HANDOFF.md 的 D1 探针，特别证明 listener 顺序、合成 error finish、零工具执行和 iterator cleanup；
 4. 如触发 AGENTS.md 停止条件，停止实现并报告，不要做近似方案。

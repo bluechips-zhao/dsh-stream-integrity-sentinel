@@ -8,7 +8,7 @@
 
 1. 用户在当前任务中的明确要求。
 2. 本文件。
-3. `docs/DECISIONS.md` 与 `docs/TECHNICAL-SPEC.md` 中的冻结契约。
+3. 内部冻结契约与 `docs/TECHNICAL-SPEC.md`。
 4. `docs/ARCHITECTURE.md`、`docs/THREAT-MODEL.md`。
 5. `docs/PROJECT.md`、`docs/TEST-PLAN.md`、`docs/TRACEABILITY.md`。
 6. README、注释与历史讨论。
@@ -55,7 +55,7 @@ v1 只做规范化输出流的验证和阻断：
 
 ## 4. 协作书规则
 
-每次工作必须在 `docs/COLLABORATION-LOG.md` 追加两类记录：
+每次工作必须在本机私有协作记录中追加两类记录：
 
 - 开始时写 `STARTED`：时间、执行者、目标、文件归属、预期解决的问题。
 - 结束时写 `COMPLETED`、`BLOCKED` 或 `ABORTED`：实际修改、证据、解决事项、未解决事项和下一步。
@@ -93,4 +93,3 @@ v1 只做规范化输出流的验证和阻断：
 - 不得让资源超限退化为 fail-open。
 - 不得覆盖用户未授权的文件或发布远端仓库/npm 包。
 - 不得删除或改写协作历史。
-

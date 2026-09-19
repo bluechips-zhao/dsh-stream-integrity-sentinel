@@ -108,7 +108,7 @@
 | TP-055 | 卸载 bundle 并重启 | profile 恢复，不残留条目或依赖 |
 | TP-056 | 打包内容审计 | 仅所需源码/产物/patch/docs，无密钥与 fixture dump |
 
-> 证据归属：TP-052～TP-055 是 fresh profile、Web/headless 和卸载恢复门禁，权威证据记录在隔离命令输出、`docs/COLLABORATION-LOG.md`、`docs/UPSTREAM-BASELINE.md` 与 `docs/ACCEPTANCE-CRITERIA.md`，不要求伪装成 Vitest 测试标题；TP-056 由 `pnpm pack --dry-run --json` 和包内容静态审计证明。单元/集成测试标题中的 TP/P 标签只覆盖适合代码级直接断言的场景。
+> 证据归属：TP-052～TP-055 是 fresh profile、Web/headless 和卸载恢复门禁，权威证据记录在隔离命令输出、`docs/UPSTREAM-BASELINE.md` 与 `docs/ACCEPTANCE-CRITERIA.md`，本机协作记录不随公开仓库发布，不要求伪装成 Vitest 测试标题；TP-056 由 `pnpm pack --dry-run --json` 和包内容静态审计证明。单元/集成测试标题中的 TP/P 标签只覆盖适合代码级直接断言的场景。
 
 ## 4. 属性测试
 

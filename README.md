@@ -16,7 +16,7 @@
 
 DSH 当前的 `BlockAssembler` 有意兼容 delta-only 协议，并会忽略部分迟到片段、采用权威 `block-end`、以及对缺失身份使用回退。这种宽容适合兼容性，却不等于“可安全执行”。社区已经出现空工具名/ID、重复 call ID、无效 JSON 参数和会话持久化污染等真实问题。
 
-已有项目会修复或中和其中某些故障。本项目的区别不是“第一个看到工具流”，而是建立一套 **拒绝猜测、完整流语法验证、流尾隔离、可证明不执行** 的统一边界。详见 [创新性与竞品分析](docs/NOVELTY.md)。
+已有项目会修复或中和其中某些故障。本项目的区别不是“第一个看到工具流”，而是建立一套 **拒绝猜测、完整流语法验证、流尾隔离、可证明不执行** 的统一边界。详细设计决策与竞品材料属于内部文档，不随公开仓库发布。
 
 ## 文档导航
 
@@ -24,14 +24,12 @@ DSH 当前的 `BlockAssembler` 有意兼容 delta-only 协议，并会忽略部�
 - [架构设计](docs/ARCHITECTURE.md)
 - [技术规范](docs/TECHNICAL-SPEC.md)
 - [威胁模型](docs/THREAT-MODEL.md)
-- [设计决策](docs/DECISIONS.md)
 - [测试计划](docs/TEST-PLAN.md)
 - [需求追踪矩阵](docs/TRACEABILITY.md)
-- [创新性与竞品分析](docs/NOVELTY.md)
 - [上游基线](docs/UPSTREAM-BASELINE.md)
 - [实现交接书](docs/IMPLEMENTATION-HANDOFF.md)
 - [验收标准](docs/ACCEPTANCE-CRITERIA.md)
-- [协作记录](docs/COLLABORATION-LOG.md)
+- 设计决策、创新性与竞品分析、协作记录：内部材料，不随公开仓库发布
 
 ## 当前状态
 
