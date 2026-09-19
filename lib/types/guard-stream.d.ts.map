@@ -1,0 +1,1 @@
+{"version":3,"file":"guard-stream.d.ts","sourceRoot":"","sources":["../../src/guard-stream.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,cAAc,EAAE,YAAY,EAAE,cAAc,EAAE,WAAW,EAAa,MAAM,YAAY,CAAA;AAwCtG;;;;GAIG;AACH,wBAAuB,WAAW,CAChC,MAAM,EAAE,aAAa,CAAC,OAAO,CAAC,EAC9B,MAAM,EAAE,cAAc,EACtB,OAAO,GAAE,YAAiB,EAC1B,WAAW,CAAC,EAAE,cAAc,GAC3B,cAAc,CAAC,WAAW,CAAC,CA4J7B"}

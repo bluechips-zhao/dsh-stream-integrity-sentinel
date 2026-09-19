@@ -1,0 +1,3 @@
+- insert:
+    - id: stream-integrity-sentinel-d1
+      name: dsh-sis-d1-fixture
